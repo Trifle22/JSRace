@@ -10,10 +10,10 @@ document.addEventListener('keydown', startRun);
 document.addEventListener('keyup', stopRun);
 
 const keys = {
-  ArrowUp : 'false',
-  ArrowDown : 'false',
-  ArrowRight : 'false',
-  ArrowLeft : 'false'
+  ArrowUp : false,
+  ArrowDown : false,
+  ArrowRight : false,
+  ArrowLeft : false
 }
 const setting = {
   start: false,
